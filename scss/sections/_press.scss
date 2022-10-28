@@ -1,0 +1,15 @@
+#press{
+    padding: 0 0 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+@media (max-width: 375px) {
+    .press-logo{
+        width: 50%; 
+        margin: 10px 10px 25px;
+    }
+}

@@ -1,0 +1,37 @@
+@use '../custom' as *;
+
+// Navigation bar
+#title{
+    background-color: $bg;
+    color: $white;
+
+    .containerFluid{
+        padding: 3% 15% 7%;
+    }
+}
+
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+}

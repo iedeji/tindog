@@ -1,0 +1,14 @@
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 375px) {
+
+    #pricing{
+        padding: 50px;
+    }
+}

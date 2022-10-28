@@ -1,0 +1,41 @@
+@use '../custom' as *;
+
+#press,#testimonials{
+    background: $bc;
+}
+
+
+#features{
+    position: relative;
+    background-color: $white;
+}
+
+#cta{
+    background-color: $bg;
+    color: $white;
+}
+
+.featureBox{
+    padding: 5%;
+}
+
+.containerFluid{
+    padding: $padding;
+}
+
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+.icon{
+    color: $bc;
+    margin: 0 0 1rem;
+
+    &:hover{
+        color: $bg;
+    }
+}
+
+
+

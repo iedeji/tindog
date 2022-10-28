@@ -1,0 +1,63 @@
+@use '../custom' as *;
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5,p, .testimonial-text,em{
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+em{
+    font-weight: 300;
+}
+
+p{
+    color: $grey;
+    font-weight: 400;
+}
+
+.testimonial-text{
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.bg-header{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.feature-text{
+    font-size: 1.5rem;
+}
+
+.cta-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px){
+    h1{
+        font-size: 3.5rem * 0.75;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .bg-header, .cta-heading, .testimonial-text{
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    em{
+        font-size: 14px;
+    }
+    
+    .bg-header{
+        margin: 1rem 0 0;
+    }
+}

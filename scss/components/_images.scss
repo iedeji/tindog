@@ -1,0 +1,14 @@
+.title-img{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+@media (max-width: 1028px){
+    .title-img{
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
